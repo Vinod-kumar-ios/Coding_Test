@@ -19,6 +19,7 @@
 		17C70F2427E662C100964720 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C70F2327E662C100964720 /* BaseNavigationController.swift */; };
 		17C70F2727E6633100964720 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C70F2627E6633100964720 /* UIView.swift */; };
 		17C70F2A27E6639800964720 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 17C70F2927E6639800964720 /* SnapKit */; };
+		17CF2E0827E72936007426E0 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF2E0727E72936007426E0 /* NSObject.swift */; };
 		17D9A04727E6D46800760B1B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9A04627E6D46800760B1B /* NewsTableViewCell.swift */; };
 		17D9A04927E6D4A300760B1B /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9A04827E6D4A300760B1B /* TitleLabel.swift */; };
 		17D9A04B27E6D4BD00760B1B /* SubTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9A04A27E6D4BD00760B1B /* SubTitleLabel.swift */; };
@@ -57,6 +58,7 @@
 		17C70F2127E6627C00964720 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		17C70F2327E662C100964720 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		17C70F2627E6633100964720 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		17CF2E0727E72936007426E0 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		17D9A04627E6D46800760B1B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		17D9A04827E6D4A300760B1B /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		17D9A04A27E6D4BD00760B1B /* SubTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitleLabel.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				17C70F2627E6633100964720 /* UIView.swift */,
+				17CF2E0727E72936007426E0 /* NSObject.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				17C70F2427E662C100964720 /* BaseNavigationController.swift in Sources */,
 				17C70F2727E6633100964720 /* UIView.swift in Sources */,
 				17D9A04927E6D4A300760B1B /* TitleLabel.swift in Sources */,
+				17CF2E0827E72936007426E0 /* NSObject.swift in Sources */,
 				17C70F2227E6627C00964720 /* NewsViewController.swift in Sources */,
 				17C70F1E27E6621800964720 /* StackView.swift in Sources */,
 			);
