@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SubTitleLable: UILabel {
+class SubTitleLabel: UILabel {
     
     init(font: UIFont, textColor: UIColor) {
         super.init(frame: .zero)
