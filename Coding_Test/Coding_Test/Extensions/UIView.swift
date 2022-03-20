@@ -68,3 +68,11 @@ extension UIView {
         }
     }
 }
+
+
+
+extension UIView {
+    static var identifier: String {
+        self.className
+    }
+}

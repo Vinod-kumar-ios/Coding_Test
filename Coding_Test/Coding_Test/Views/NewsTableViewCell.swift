@@ -9,16 +9,24 @@ import UIKit
 
 class NewsTableViewCell: UITableViewCell {
     
-    let titleLable = TitleLabel.init(font: .boldSystemFont(ofSize: 16), textColor: .white)
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    let containerStackView = StackView.init(alongAxis: .vertical, majorAxisSpacing: 15, minorAxisSpacing: 15)
+    
+    let newsImage = UIImageView()
+    let titleLable = TitleLabel(font: .boldSystemFont(ofSize: 16), textColor: .white)
+    let subTitleLable = SubTitleLabel(font: .boldSystemFont(ofSize: 16), textColor: .white)
+    
+    
+    func prepareUI() {
+        selectionStyle = .none
+        contentView.addSubview(containerStackView)
+        [newsImage, titleLable, subTitleLable].forEach {containerStackView.addArrangedSubview($0)}
+        subTitleLable.numberOfLines = 0
+        
+        
+        // add constraints
+        containerStackView.makeConstraintsWithContainer(contentView) { stackview, container in
+            stackview.edges.equalTo(container.edges)
+        }
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    
 }
