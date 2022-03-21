@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate{
     
     func setRootViewController() -> UIViewController{
-        let rootViewController = NewsViewController()
+        let rootViewController = NewsViewController(apiClient: Webservice())
         let navigationController = BaseNavigationController(rootViewController: rootViewController)
         return navigationController
     }
